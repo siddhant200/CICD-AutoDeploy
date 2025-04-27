@@ -10,7 +10,7 @@ phases:
     commands: 
       - echo Build start
       - cp index.html /var/www/html
-  post build:
+  post_build:
     commands:
       - echo configuring Nginx server
 
